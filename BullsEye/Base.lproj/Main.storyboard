@@ -117,6 +117,10 @@
                         <color key="tintColor" red="0.3333333432674408" green="0.11668900248054515" blue="0.22202258162695915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="sGw-We-W7u" id="Qzq-Z0-4vv"/>
+                        <outlet property="targetLabel" destination="sfr-YR-GUG" id="obd-wZ-unC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
